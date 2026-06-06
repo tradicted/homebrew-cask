@@ -7,7 +7,7 @@ cask "tradicted-trading-journal" do
   desc "Free open-source desktop trading journal"
   homepage "https://www.tradicted.com/"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Tradicted Journal.app"
 
