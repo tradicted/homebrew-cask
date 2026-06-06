@@ -5,7 +5,9 @@ cask "tradicted-trading-journal" do
   url "https://github.com/tradicted/tradicted-journal/releases/download/v#{version}/Tradicted.Journal-#{version}.dmg"
   name "Tradicted Trading Journal"
   desc "Free open-source desktop trading journal"
-  homepage "https://www.tradicted.com"
+  homepage "https://www.tradicted.com/"
+
+  depends_on macos: ">= :monterey"
 
   app "Tradicted Journal.app"
 
